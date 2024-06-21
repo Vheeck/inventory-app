@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Edit Item - Inventory App</title>
+</head>
+
+<body>
+    <%- include("components/header"); %>
+
+    <h1>Edit Item</h1>
+
+    <form action="" method="post">
+        <input type="text" name="name" placeholder="Name" value="<%= data.name %>">
+        <p style="color: red;">
+            <%= error.name %>
+        </p>
+        <input type="number" name="quantity" placeholder="Quantity" value="<%= data.quantity %>">
+        <p style="color: red;">
+            <%= error.quantity %>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+
+    <%- include("components/footer"); %>
+</body>
+
+</html>

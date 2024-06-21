@@ -1,0 +1,28 @@
+{
+  "name": "inventory-api",
+  "version": "1.0.0",
+  "description": "This is a simple inventory API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Inventory",
+    "Stock",
+    "IMS",
+    "Inventory",
+    "Management",
+    "System"
+  ],
+  "author": "Victor Momoh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

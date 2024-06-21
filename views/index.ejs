@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inventory App</title>
+</head>
+
+<body>
+    <%- include("components/header"); %>
+
+    <h1>Welcome to the Inventory App</h1>
+
+    <% items.forEach((item)=> { %>
+        <%- include("components/item", { item }); %>
+    <% }) %>
+
+    <a href="/add">Add New Item</a>
+
+    <%- include("components/footer"); %>
+</body>
+
+</html>
