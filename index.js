@@ -28,7 +28,7 @@ app.get("/edit/:id", itemController.getUpdatePage);
 
 app.post("/edit/:id", itemController.updateItemView);
 
-// REST API Routes
+// REST API End Points
 
 app.get("/items", itemController.getItems);
 

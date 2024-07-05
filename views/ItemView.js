@@ -43,4 +43,6 @@ class ItemView {
   }
 }
 
+// This is just a random comment
+
 module.exports = ItemView;
